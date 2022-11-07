@@ -97,10 +97,10 @@ main{
 .bottom{
     width: 100%;
     position: sticky;
-    bottom: -1px;
+    bottom: -10px;
     background-color: black;
     color: white;
-    height: 145px;
+    height: 130px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -115,6 +115,7 @@ main{
 }
 .bottom i{
     padding: 10px 10px;
+    padding-bottom: 3px;
     cursor:pointer;
 }
 i{
