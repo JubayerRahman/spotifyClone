@@ -15,14 +15,14 @@ body{
     height: 70vh;
 }
 .imgSection img{
-    animation: imageAni 5s;
+    animation: imageAni 5s ease-in-out;
     /* animation: imageAni duration timing-function delay iteration-count direction fill-mode; */
 }
 @keyframes imageAni {
-    0%{margin-top: 500px;}
-    30%{margin-top: 250px;}
-    60%{margin-top: 150px;}
-    100%{margin-top: 0px;}
+    0%{margin-top: 100vh;}
+    /* 30%{margin-top: 250px;}
+    60%{margin-top: 150px;} */
+    100%{margin-top: 0vh;}
 }
     .info{
     /* color: black; */
@@ -38,6 +38,7 @@ body{
     line-height: 50px;
     border-radius: 20px;
     align-items: center;
+    margin-bottom: 20px;
 }
 .data{
     display: flex;
@@ -48,6 +49,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    text-shadow: 2px 2px gray;
+}
+.phone:hover, .mail:hover{
+    transform: translateY(5px);
+    transition: 0.8s;
 }
 a{
     text-decoration: none;
@@ -80,6 +86,10 @@ a{
     .data{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
+        align-items: baseline;
+    }
+    .phone, .mail{
+        padding-top: 20px;
     }
 }
