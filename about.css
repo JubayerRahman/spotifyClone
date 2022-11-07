@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Ubuntu&display=swap');
+
+body{
+    font-family: raleway;
+    background-color: rgba(48, 48, 48, 0.897);
+}
+.meSection{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+.imgSection{
+    margin: 0% auto;
+    height: 70vh;
+}
+.imgSection img{
+    animation: imageAni 5s;
+    /* animation: imageAni duration timing-function delay iteration-count direction fill-mode; */
+}
+@keyframes imageAni {
+    0%{margin-top: 500px;}
+    30%{margin-top: 250px;}
+    60%{margin-top: 150px;}
+    100%{margin-top: 0px;}
+}
+    .info{
+    color: black;
+    padding: 20px;
+    width: 60vw;
+    margin-left:auto ;
+    margin-right:auto ;
+    background-color: #B9B4AE;
+    padding-top: 50px;
+    margin-top: -30px;
+    line-height: 50px;
+    border-radius: 20px;
+    align-items: center;
+}
+.data{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.phone, .mail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+@media (min-width:300px) and (max-width:800px) {
+    .meSection{
+        width: 100%;
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    img{
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .info{
+        width: 100%;
+        margin-top: -60px;
+    }
+    .data{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
