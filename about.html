@@ -17,14 +17,16 @@
             <h2>Spotify</h2>
           </li>
           <li><a href="index.html">Home</a></li>
-          <li><a href="./about.html" target="_blank">About</a></li>
+          <li><a href="./about.html">About</a></li>
         </ul>
       </nav>
       <div class="meSection">
         <div class="imgSection">
-        <img src="./me.png" alt="" srcset="" />
+        <img id="about" src="./me.png" alt="" srcset="" />
         </div>
       <div class="info">
+        <h3 style="text-align: center; color:red">Note: <code>Click on my Image to get your greetings!!</code></h3>
+        <h3 style="text-align: center; color:red">দ্রষ্টব্য: <code>আপনার শুভেচ্ছা পেতে আমার ছবিতে ক্লিক করুন</code></h3>
         <h3>
           Hi, I am Jobayer rahman. I am a front-end developer. I love to make
           websites. At the time I am making this web project I am a student with
@@ -49,10 +51,15 @@
         </div>
       </div>
       </div>
+      <audio id="salam">
+        <source src="SALAM.mp3">
+      </audio>
     </main>
     <script
       src="https://kit.fontawesome.com/c74447f892.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./aboutFunction.js"></script>
+    </script>
   </body>
 </html>
