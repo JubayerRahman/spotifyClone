@@ -25,12 +25,14 @@ body{
     100%{margin-top: 0px;}
 }
     .info{
-    color: black;
+    /* color: black; */
+    color: white;
     padding: 20px;
     width: 60vw;
     margin-left:auto ;
     margin-right:auto ;
-    background-color: #B9B4AE;
+    /* background-color: #B9B4AE; */
+    background-color: black;
     padding-top: 50px;
     margin-top: -30px;
     line-height: 50px;
@@ -49,25 +51,30 @@ body{
 }
 a{
     text-decoration: none;
-    color: black;
+    /* color: black; */
+    color: white;
     margin-left: 10px;
 }
 @media (min-width:300px) and (max-width:800px) {
     .meSection{
-        width: 100%;
+        width: 95%;
         display: flex;
         align-content: center;
         flex-direction: column;
         justify-content: center;
     }
-
+    .imgSection{
+        display: flex;
+        justify-content: center;
+        margin: 0px auto;
+    }
     img{
-        width: 100%;
+        width: 80%;
         margin-right: auto;
         margin-left: auto;
     }
     .info{
-        width: 100%;
+        width: 80%;
         margin-top: -60px;
     }
     .data{
