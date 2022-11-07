@@ -100,7 +100,7 @@ main{
     bottom: -10px;
     background-color: black;
     color: white;
-    height: 130px;
+    height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -135,6 +135,24 @@ i{
 }
 .songInfo h3{
     margin-left: 10px;
+}
+.nextDialog{
+    font-family: raleway;
+    text-align: center;
+    font-size: 10px;
+    color: red;
+}
+.songitme:hover{
+    background-color: #1ED760 ;
+}
+.songitme:hover .songName{
+    color:  white;
+}
+.songItemPlay:hover{
+    color: white;
+}
+.songItemPlay:active{
+    color: #1ED760 ;
 }
 /* bottom End */
 
