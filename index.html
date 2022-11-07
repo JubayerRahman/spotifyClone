@@ -25,65 +25,109 @@
           <div class="songitme">
             <img class="songCover" src="./covers/1.jpg" alt="1" />
             <span class="songName">Warriyo - Mortals [NCS Release]</span>
-            <span><span class="time">05:34</span> <i class="fa-regular fa-circle-play"></i> </span>
+            <span
+              ><span class="time">05:34</span>
+              <i id="0" class="fa-regular songItemPlay fa-circle-play"></i>
+            </span>
           </div>
           <div class="songitme">
             <img class="songCover" src="./covers/2.jpg" alt="1" />
             <span class="songName">Cielo - Huma-Huma</span>
-            <span><span class="time">05:34</span> <i class="fa-regular fa-circle-play"></i> </span>
+            <span
+              ><span class="time">05:34</span>
+              <i id="1" class="fa-regular songItemPlay fa-circle-play"></i>
+            </span>
           </div>
           <div class="songitme">
             <img class="songCover" src="./covers/3.jpg" alt="1" />
-            <span class="songName">DEAF KEV - Invincible [NCS Release]-320k</span>
-            <span><span class="time">05:34</span> <i class="fa-regular fa-circle-play"></i> </span>
+            <span class="songName"
+              >DEAF KEV - Invincible [NCS Release]-320k</span
+            >
+            <span
+              ><span class="time">05:34</span>
+              <i id="2" class="fa-regular songItemPlay fa-circle-play"></i>
+            </span>
           </div>
           <div class="songitme">
             <img class="songCover" src="./covers/4.jpg" alt="1" />
-            <span class="songName">Different Heaven & EH!DE - My Heart [NCS Release]</span>
-            <span><span class="time">05:34</span> <i class="fa-regular fa-circle-play"></i> </span>
+            <span class="songName"
+              >Different Heaven & EH!DE - My Heart [NCS Release]</span
+            >
+            <span
+              ><span class="time">05:34</span>
+              <i id="3" class="fa-regular songItemPlay fa-circle-play"></i>
+            </span>
           </div>
           <div class="songitme">
             <img class="songCover" src="./covers/5.jpg" alt="1" />
-            <span class="songName">Janji-Heroes-Tonight-feat-Johnning-NCS-Release</span>
-            <span><span class="time">05:34</span> <i class="fa-regular fa-circle-play"></i> </span>
+            <span class="songName"
+              >Janji-Heroes-Tonight-feat-Johnning-NCS-Release</span
+            >
+            <span
+              ><span class="time">05:34</span>
+              <i id="4" class="fa-regular songItemPlay fa-circle-play"></i>
+            </span>
           </div>
           <div class="songitme">
             <img class="songCover" src="./covers/6.jpg" alt="1" />
             <span class="songName">Rabba - Salam-e-Ishq</span>
-            <span><span class="time">05:34</span> <i class="fa-regular fa-circle-play"></i> </span>
+            <span
+              ><span class="time">05:34</span>
+              <i id="5" class="fa-regular songItemPlay fa-circle-play"></i>
+            </span>
           </div>
           <div class="songitme">
             <img class="songCover" src="./covers/7.jpg" alt="1" />
             <span class="songName">Sakhiyaan - Salam-e-Ishq</span>
-            <span><span class="time">05:34</span> <i class="fa-regular fa-circle-play"></i> </span>
+            <span
+              ><span class="time">05:34</span>
+              <i id="6" class="fa-regular songItemPlay fa-circle-play"></i>
+            </span>
           </div>
           <div class="songitme">
             <img class="songCover" src="./covers/8.jpg" alt="1" />
             <span class="songName">Bhula Dena - Salam-e-Ishq</span>
-            <span><span class="time">05:34</span> <i class="fa-regular fa-circle-play"></i> </span>
+            <span
+              ><span class="time">05:34</span>
+              <i id="7" class="fa-regular songItemPlay fa-circle-play"></i>
+            </span>
           </div>
           <div class="songitme">
             <img class="songCover" src="./covers/9.jpg" alt="1" />
             <span class="songName">Tumhari Kasam - Salam-e-Ishq</span>
-            <span><span class="time">05:34</span> <i class="fa-regular fa-circle-play"></i> </span>
+            <span
+              ><span class="time">05:34</span>
+              <i id="8" class="fa-regular songItemPlay fa-circle-play"></i>
+            </span>
           </div>
           <div class="songitme">
             <img class="songCover" src="./covers/10.jpg" alt="1" />
             <span class="songName">Na Jaana - Salam-e-Ishq</span>
-            <span><span class="time">05:34</span> <i class="fa-regular fa-circle-play"></i> </span>
+            <span
+              ><span class="time">05:34</span>
+              <i id="9" class="fa-regular songItemPlay s fa-circle-play"></i>
+            </span>
           </div>
         </div>
       </div>
       <div class="bottom">
-        <input type="range" name="range" min="0" max="100" value="0" id="prograssBar" />
+        <p id="nextDialog" class="nextDialog"></p>
+        <input
+          type="range"
+          name="range"
+          min="0"
+          max="100"
+          value="0"
+          id="prograssBar"
+        />
         <div class="songInfo">
           <img src="./playing.gif" width="50px" alt="gif" id="gif" />
-          <h3>Warriyo - Mortals [NCS Release]</h3>
+          <h3 id="mainSongName"></h3>
         </div>
         <div class="iconSection">
-          <i class="fa-2x fa-solid fa-backward"></i>
+          <i class="fa-2x fa-solid fa-backward" id="prvious"></i>
           <i class="fa-2x fa-solid fa-play" id="mainPlay"></i>
-          <i class="fa-2x fa-solid fa-forward"></i>
+          <i class="fa-2x fa-solid fa-forward" id="next"></i>
         </div>
       </div>
     </main>
